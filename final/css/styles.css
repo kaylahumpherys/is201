@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    color: black; /*this is font color*/
+}
+img{
+    display: block;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px;
+    margin: auto; /*centers the images*/
+}
+li:hover{
+    font-size: 105%;
+    text-decoration: underline;
+    background-color: lightsalmon;
+    
+}
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+.gallery img{
+    display: inline;
+    width: 350px;
+}
